@@ -1,0 +1,37 @@
+
+.footer .box-container{
+  /* border: 2px solid black;
+  border-radius: .5rem; */
+  background: #F5F2F2;
+  padding: 0.5rem;
+  padding-bottom: 0em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.footer .box-container .box{
+  flex: 1 1 5rem;
+  color: black;
+}
+.footer .box-container .box a{
+  color: black;
+  font-size: 1rem;
+  /* padding-bottom: 0.5rem; */
+  /* display: block; */
+  text-decoration: none;
+}
+.footer .box-container .rights{
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+.footer .box-container .box1 a{
+  size: 500px;
+  /* width: 1000rem; */
+}
+.footer .box-container .box1 h3{
+  font-size:larger;
+  text-align:center;
+  height: max-content;
+}

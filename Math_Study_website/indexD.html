@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="styleD.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="nav">
+            <h2><span></span>Dictionary</h2>
+          </div>
+        </div>
+      </header>
+    <div class="main" id="D">
+        <h2>Dictionary</h2>
+        <div class="input-area">
+            <input type="text" name="word" id="word" placeholder="Enter Word"><br>
+            <button id="find">Find</button>
+        </div>
+        <div class="result-area">
+            <p>Your Result...</p>
+        </div>
+    </div>
+        <img src="D.gif" alt="" class="center">
+        <button id="btn"><a href="English.html" id="se">Go Back</a></button>
+<script>
+    var btn = document.querySelector("#find");
+    var inputtext = document.querySelector("#word");
+    var resultP = document.querySelector("p");
+
+    btn.addEventListener("click" , function(){
+        var text = inputtext.value;
+        url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
+        finalURL =  url + text;
+
+        fetch(finalURL).then(response => {
+            return response.json();
+        }).then(data => {
+            var resultFinal = data[0]["meanings"][0]["definitions"][0]["definition"];
+            resultP.innerHTML = resultFinal;
+            
+        })
+    })
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
