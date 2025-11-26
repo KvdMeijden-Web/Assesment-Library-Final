@@ -10,7 +10,7 @@ A consolidated library of all code artifacts used in Task 1.
 
 ---
 
-## Laser Harp
+## Traffic light
 - Category: Automation / Robotics  
 - Language: Arduino (`.ino`, modified C++)
 
@@ -50,7 +50,24 @@ A consolidated library of all code artifacts used in Task 1.
 - Category: Simple Floor Tile Calculator  
 - Language: Ruby (`.rb`)
 
-## GeoNuclearData
-- Not a full programme! just database!
-- Category: Safety, database, data analitics 
-- Language: Structured Quiry language (`.sql`,), Json (`.sql`,), csv (`.csv`,)
+---
+
+## Sorting
+- Algorithms for sorting values small to large.
+- Visualisation of algorithm when played.
+- Algorithms can be applied to different situations.
+- Language: Python(`.py`)
+
+---
+
+## Tasklist
+- Tasklist application + GUI
+- In two languages
+- Language: Python(`.py`) and Java(`.java`)
+
+---
+
+## Rock Paper Scissors
+- Type: Game
+- In three languages
+- Language: C++ (`.cpp`) Python(`.py`) and Java(`.java`)
