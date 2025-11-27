@@ -72,8 +72,3 @@ A consolidated library of all code artifacts used in Task 1.
 - In three languages
 - Language: C++ (`.cpp`) Python(`.py`) and Java(`.java`)
 ---
-
-## Sorting Algorithm analiser
-- Type: Algorithm testing
-- Three different algorithms that organise values visualy from small to large.
-- Language: Python (`.py`)
